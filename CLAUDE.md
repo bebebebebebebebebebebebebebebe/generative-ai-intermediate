@@ -19,10 +19,9 @@ The repository is structured as educational content with sections organized sequ
 
 ## Project Configuration
 
-- **Python Version**: 3.13 (specified in `.python-version`)
-- **Project Manager**: uv (based on `pyproject.toml` structure)
+- **Package Manager**: pnpm
 - **Package Name**: `generative-ai-intermediate`
-- **Python Requirement**: >=3.10
+- **Node.js Requirement**: >=18.0.0 (LTS recommended)
 
 ## Repository Structure
 
@@ -36,14 +35,20 @@ generative-ai-intermediate/
 
 ## Development Setup
 
-Since this project uses uv for Python package management:
+Since this project uses pnpm for package management:
 
 ```bash
-# Install dependencies (when they exist)
-uv pip install -e .
+# Install dependencies
+pnpm install
 
-# Or sync dependencies
-uv sync
+# Add a new dependency
+pnpm add <package-name>
+
+# Add a development dependency
+pnpm add -D <package-name>
+
+# Run scripts
+pnpm run <script-name>
 ```
 
 ## Content Organization
