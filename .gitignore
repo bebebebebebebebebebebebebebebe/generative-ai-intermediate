@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .claude
+.agents
 
 *_prompt.md

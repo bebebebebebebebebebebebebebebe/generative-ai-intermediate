@@ -59,7 +59,16 @@
 - Google Sheets要約アシスタント（API連携）
 - タスク自動化アシスタント
 
-### 2. Model Context Protocol（MCP）基礎
+### 2. AIエージェントとSkills基礎（新設）
+
+**AIエージェント**と、エージェントに専門的な手順を教える**Agent Skills**の概念と具体的な使い方を学びます。プロンプトエンジニアリングから一歩進んだ、自律的なAIワークフローの構築方法を習得します。
+
+| 回次 | テーマ | 主な学習内容 |
+|------|--------|--------------|
+| 第1回 | AIエージェント入門 | エージェントの自律性、ツール利用（RAG/検索/コード実行）、推論ループ |
+| 第2回 | Agent Skills入門 | Skillsの概念、`SKILL.md`の構造、`skills.sh`エコシステム、作成とテストの手順 |
+
+### 3. Model Context Protocol（MCP）基礎
 
 **MCP**は、AIアシスタントが外部ツールやデータソースと安全に連携するためのオープンスタンダードです。Claude、ChatGPT、その他のAIツールが、ファイルシステム、データベース、APIなどと統合的に機能する仕組みを学びます。
 
@@ -101,9 +110,15 @@ generative-ai-intermediate/
 │   │   ├── README.md           # 第1回の詳細教材
 │   │   └── assets/             # 画像・資料
 │   ├── section02-prompt/       # 第2回：プロンプト設計
-│   │   ├── README.md
-│   │   └── assets/
-│   └── ...                     # 第3-5回（順次追加）
+│
+├── ai-agent-basics/            # AIエージェント基礎教材
+│   ├── README.md               # エージェント教材の全体構成
+│   └── section-01-overview/    # 第1回：エージェントの基本概念概念
+│
+├── skills-basics/              # Agent Skills基礎教材
+│   ├── README.md               # Skills教材の全体構成
+│   └── section01-introduction/ # 第1回：Skills入門と利用方法
+│       └── skills-example/     # ハンズオン用サンプルスキル
 │
 └── mcp-basics/                 # MCP基礎教材
     ├── README.md               # MCP教材の全体構成
@@ -138,6 +153,8 @@ npm install
 各ディレクトリの `README.md` に従って学習を進めてください：
 
 * Difyを学習する場合: [dify-basics/README.md](dify-basics/README.md)
+* AIエージェントを学習する場合: [ai-agent-basics/README.md](ai-agent-basics/README.md)
+* Agent Skillsを学習する場合: [skills-basics/README.md](skills-basics/README.md)
 * MCPを学習する場合: [mcp-basics/README.md](mcp-basics/README.md)
 
 ---
