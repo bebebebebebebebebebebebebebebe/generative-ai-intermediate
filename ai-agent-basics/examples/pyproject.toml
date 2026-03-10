@@ -1,0 +1,14 @@
+[project]
+name = "examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.66.0",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.10",
+    "langchain-google-genai>=4.2.1",
+    "langgraph>=1.0.10",
+    "python-dotenv>=1.2.2",
+]
