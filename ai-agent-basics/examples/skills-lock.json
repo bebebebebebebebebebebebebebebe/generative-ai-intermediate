@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "arxiv-search": {
+      "source": "varde80/arxiv-zotero-obsidian",
+      "sourceType": "github",
+      "computedHash": "a6674c1457822e16fa75a24574ae5d0d9662f6eab77d5a08e0222015691a1112"
+    }
+  }
+}
