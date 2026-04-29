@@ -28,7 +28,7 @@ __pycache__
 .claude
 .agents
 .venv
-
+.codex
 .env
 
 *_prompt.md
